@@ -24,8 +24,8 @@ const Nav = () => {
       <NavBar
         items={
           <NavItems>
-            <Link to="/rnc">
-              <NavItem selected={pathname === "/rnc"}>RNC</NavItem>
+            <Link to="/rnc/org/mock-org">
+              <NavItem selected={pathname === "/rnc/org/mock-org"}>RNC</NavItem>
             </Link>
             <Link to="/bctwo">
               <NavItem selected={pathname === "/bctwo"}>BC Two</NavItem>
