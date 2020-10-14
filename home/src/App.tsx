@@ -8,6 +8,7 @@ import Theme from "@pluralsight/ps-design-system-theme";
 import styled from "styled-components";
 import Nav from "./Nav";
 import { DateTime, Interval } from "luxon";
+import FederatedModule from "./FederatedModule";
 
 // @ts-ignore
 const BCTwo = React.lazy(() => import("bcTwo/BCTwo"));
@@ -15,6 +16,11 @@ const BCTwo = React.lazy(() => import("bcTwo/BCTwo"));
 const BCThree = React.lazy(() => import("bcThree/BCThree"));
 // @ts-ignore
 const ReviewWorkflow = React.lazy(() => import("flowRnc/ReviewWorkflow"));
+const FallbackReviewWorkflow = React.lazy(() =>
+  import("@ps-flow/flow-rnc").then((module) => ({
+    default: module.ReviewWorkflow,
+  }))
+);
 
 const Page = styled.div`
   background-color: ${colorsBackgroundDark[1]};
@@ -40,7 +46,9 @@ const App = () => {
           <Content>
             <Route path="/rnc">
               <Suspense fallback={null}>
-                <ReviewWorkflow
+                <FederatedModule
+                  Component={ReviewWorkflow}
+                  FallbackComponent={FallbackReviewWorkflow}
                   dateRange={{
                     start: DateRange.start.toJSDate(),
                     end: DateRange.end.toJSDate(),
