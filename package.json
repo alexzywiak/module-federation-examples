@@ -1,0 +1,20 @@
+{
+  "name": "module-federation-brownbag",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Alex Zywiak <alex.zywiak@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"wsrun --parallel start\""
+  },
+  "workspaces": [
+    "home",
+    "bc-two",
+    "bc-three"
+  ],
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "wsrun": "^5.2.4"
+  }
+}

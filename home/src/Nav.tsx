@@ -25,13 +25,19 @@ const Nav = () => {
         items={
           <NavItems>
             <Link to="/rnc/org/mock-org">
-              <NavItem selected={pathname === "/rnc/org/mock-org"}>RNC</NavItem>
+              <NavItem selected={pathname === "/rnc/org/mock-org"}>
+                <h1>RNC</h1>
+              </NavItem>
             </Link>
             <Link to="/bctwo">
-              <NavItem selected={pathname === "/bctwo"}>BC Two</NavItem>
+              <NavItem selected={pathname === "/bctwo"}>
+                <h1>BC Two</h1>
+              </NavItem>
             </Link>
             <Link to="/bcthree">
-              <NavItem selected={pathname === "/bcthree"}>BC Three</NavItem>
+              <NavItem selected={pathname === "/bcthree"}>
+                <h1>BC Three</h1>
+              </NavItem>
             </Link>
           </NavItems>
         }
