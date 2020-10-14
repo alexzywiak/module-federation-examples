@@ -8,11 +8,11 @@ module.exports = {
   mode: "development",
   devServer: {
     contentBase: path.join(__dirname, "dist"),
-    port: 3003,
+    port: 3004,
     historyApiFallback: true,
   },
   output: {
-    publicPath: "http://localhost:3003/",
+    publicPath: "http://localhost:3004/",
   },
   resolve: {
     extensions: [".ts", ".tsx", ".js"],
@@ -34,15 +34,13 @@ module.exports = {
       process: JSON.stringify({ env: process.env }),
     }),
     new ModuleFederationPlugin({
-      name: "bcThree",
+      name: "incrementContext",
       filename: "remoteEntry.js",
       exposes: {
-        "./BCThree": "./src/BCThree",
+        "./IncrementContext": "./src/IncrementContext",
+        "./WithIncrementContext": "./src/WithIncrementContext",
       },
-      remotes: {
-        incrementContext:
-          "incrementContext@http://localhost:3004/remoteEntry.js",
-      },
+      remotes: {},
       shared: {
         ...deps,
         react: {

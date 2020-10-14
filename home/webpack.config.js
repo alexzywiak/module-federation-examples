@@ -40,6 +40,8 @@ module.exports = {
         flowRnc: "flowRnc@http://localhost:3001/remoteEntry.js",
         bcTwo: "bcTwo@http://localhost:3002/remoteEntry.js",
         bcThree: "bcThree@http://localhost:3003/remoteEntry.js",
+        incrementContext:
+          "incrementContext@http://localhost:3004/remoteEntry.js",
       },
       shared: {
         ...deps,

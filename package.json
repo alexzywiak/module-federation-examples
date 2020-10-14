@@ -11,7 +11,8 @@
   "workspaces": [
     "home",
     "bc-two",
-    "bc-three"
+    "bc-three",
+    "increment-context"
   ],
   "devDependencies": {
     "concurrently": "^5.3.0",

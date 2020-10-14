@@ -15,6 +15,10 @@ const BCTwo = React.lazy(() => import("bcTwo/BCTwo"));
 const BCThree = React.lazy(() => import("bcThree/BCThree"));
 // @ts-ignore
 const ReviewWorkflow = React.lazy(() => import("flowRnc/ReviewWorkflow"));
+const IncrementContextProvider = React.lazy(
+  // @ts-ignore
+  () => import("incrementContext/IncrementContext")
+);
 
 const Page = styled.div`
   background-color: ${colorsBackgroundDark[1]};
@@ -38,26 +42,31 @@ const App = () => {
         <Page>
           <Nav />
           <Content>
-            <Route path="/rnc">
-              <Suspense fallback={null}>
-                <ReviewWorkflow
-                  dateRange={{
-                    start: DateRange.start.toJSDate(),
-                    end: DateRange.end.toJSDate(),
-                  }}
-                />
-              </Suspense>
-            </Route>
-            <Route path="/bctwo">
-              <Suspense fallback={null}>
-                <BCTwo />
-              </Suspense>
-            </Route>
-            <Route path="/bcthree">
-              <Suspense fallback={null}>
-                <BCThree />
-              </Suspense>
-            </Route>
+            <Suspense fallback={null}>
+              <IncrementContextProvider>
+                <Route path="/rnc">
+                  <Suspense fallback={null}>
+                    <ReviewWorkflow
+                      dateRange={{
+                        start: DateRange.start.toJSDate(),
+                        end: DateRange.end.toJSDate(),
+                      }}
+                    />
+                  </Suspense>
+                </Route>
+
+                <Route path="/bctwo">
+                  <Suspense fallback={null}>
+                    <BCTwo />
+                  </Suspense>
+                </Route>
+                <Route path="/bcthree">
+                  <Suspense fallback={null}>
+                    <BCThree />
+                  </Suspense>
+                </Route>
+              </IncrementContextProvider>
+            </Suspense>
           </Content>
         </Page>
       </BrowserRouter>

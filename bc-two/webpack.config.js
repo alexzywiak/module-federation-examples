@@ -39,7 +39,10 @@ module.exports = {
       exposes: {
         "./BCTwo": "./src/BCTwo",
       },
-      remotes: {},
+      remotes: {
+        incrementContext:
+          "incrementContext@http://localhost:3004/remoteEntry.js",
+      },
       shared: {
         ...deps,
         react: {

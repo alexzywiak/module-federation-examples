@@ -1,5 +1,9 @@
-import React from "react";
+import React, { useContext, useState, useEffect, Suspense } from "react";
 import styled from "styled-components";
+const WithIncrementContext = React.lazy(
+  // @ts-ignore
+  () => import("incrementContext/WithIncrementContext")
+);
 
 const BCContainer = styled.div`
   height: 100%;
@@ -22,7 +26,20 @@ const IconContainer = styled.div`
 const BCTwo = () => {
   return (
     <BCContainer>
-      <h1>BC Two</h1>
+      <Suspense fallback={null}>
+        <WithIncrementContext
+          renderProps={({ count, increment, decrement }: any) => {
+            return (
+              <>
+                <h1>BC Two</h1>
+                <h2>Count: {count}</h2>
+                <button onClick={() => decrement()}>Subtract</button>
+                <button onClick={() => increment()}>Add</button>
+              </>
+            );
+          }}
+        />
+      </Suspense>
       <IconContainer>
         <svg aria-label="gear icon" viewBox="0 0 24 24" role="img">
           <path
