@@ -6,10 +6,13 @@ import {
 } from "@pluralsight/ps-design-system-core";
 import Theme from "@pluralsight/ps-design-system-theme";
 import styled from "styled-components";
-import BCTwo from "./BCTwo";
-import BCThree from "./BCThree";
 import Nav from "./Nav";
 import { DateTime, Interval } from "luxon";
+
+// @ts-ignore
+const BCTwo = React.lazy(() => import("bcTwo/BCTwo"));
+// @ts-ignore
+const BCThree = React.lazy(() => import("bcThree/BCThree"));
 // @ts-ignore
 const ReviewWorkflow = React.lazy(() => import("flowRnc/ReviewWorkflow"));
 

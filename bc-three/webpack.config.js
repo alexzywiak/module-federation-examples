@@ -8,11 +8,11 @@ module.exports = {
   mode: "development",
   devServer: {
     contentBase: path.join(__dirname, "dist"),
-    port: 3000,
+    port: 3003,
     historyApiFallback: true,
   },
   output: {
-    publicPath: "/",
+    publicPath: "http://localhost:3003/",
   },
   resolve: {
     extensions: [".ts", ".tsx", ".js"],
@@ -34,20 +34,18 @@ module.exports = {
       process: JSON.stringify({ env: process.env }),
     }),
     new ModuleFederationPlugin({
-      name: "monolith",
+      name: "bcThree",
       filename: "remoteEntry.js",
-      remotes: {
-        flowRnc: "flowRnc@http://localhost:3001/remoteEntry.js",
-        bcTwo: "bcTwo@http://localhost:3002/remoteEntry.js",
-        bcThree: "bcThree@http://localhost:3003/remoteEntry.js",
+      exposes: {
+        "./BCThree": "./src/BCThree",
       },
+      remotes: {},
       shared: {
         ...deps,
         react: {
           singleton: true,
         },
         "react-dom": { singleton: true },
-        "react-router-dom": { singleton: true },
       },
     }),
     new HtmlWebpackPlugin({
