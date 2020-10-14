@@ -617,7 +617,7 @@
     glamorous "^5.0.0"
     prop-types "^15.7.2"
 
-"@ps-flow/flow-rnc@^1.3.1":
+"@ps-flow/flow-rnc@1.3.1":
   version "1.3.1"
   resolved "http://repository.vnerd.com/artifactory/api/npm/npm-pluralsight/@ps-flow/flow-rnc/-/@ps-flow/flow-rnc-1.3.1.tgz#89581edd9b73ec6253670790efd72e023d89c2f9"
   integrity sha1-iVge3Ztz7GJTZweQ79cuAj2Jwvk=

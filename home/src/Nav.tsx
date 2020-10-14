@@ -30,6 +30,9 @@ const Nav = () => {
             <Link to="/bctwo">
               <NavItem selected={pathname === "/bctwo"}>BC Two</NavItem>
             </Link>
+            <Link to="/bcthree">
+              <NavItem selected={pathname === "/bcthree"}>BC Three</NavItem>
+            </Link>
           </NavItems>
         }
       />

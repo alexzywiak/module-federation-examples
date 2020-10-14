@@ -35,7 +35,7 @@
     "@pluralsight/ps-design-system-tooltip": "^5.1.0",
     "@pluralsight/ps-design-system-util": "^5.3.3",
     "@pluralsight/ps-design-system-viewtoggle": "^5.0.1",
-    "@ps-flow/flow-rnc": "^1.3.1",
+    "@ps-flow/flow-rnc": "1.3.1",
     "glamor": "^2.20.40",
     "install": "^0.13.0",
     "luxon": "^1.25.0",
