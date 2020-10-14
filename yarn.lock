@@ -9,12 +9,12 @@
   dependencies:
     "@babel/highlight" "^7.10.4"
 
-"@babel/generator@^7.11.5":
-  version "7.11.6"
-  resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.11.6.tgz#b868900f81b163b4d464ea24545c61cbac4dc620"
-  integrity sha512-DWtQ1PV3r+cLbySoHrwn9RWEgKMBLLma4OBQloPRyDYvc5msJM9kvTLo1YnlJd1P/ZuKbdli3ijr5q3FvAF3uA==
+"@babel/generator@^7.12.0":
+  version "7.12.0"
+  resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.12.0.tgz#91a45f1c18ca8d895a35a04da1a4cf7ea3f37f98"
+  integrity sha512-8lnf4QcyiQMf5XQp47BltuMTocsOh6P0z/vueEh8GzhmWWlDbdvOoI5Ziddg0XYhmnx35HyByUW51/9NprF8cA==
   dependencies:
-    "@babel/types" "^7.11.5"
+    "@babel/types" "^7.12.0"
     jsesc "^2.5.1"
     source-map "^0.5.0"
 
@@ -69,15 +69,15 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@babel/parser@^7.10.4", "@babel/parser@^7.11.5":
-  version "7.11.5"
-  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.11.5.tgz#c7ff6303df71080ec7a4f5b8c003c58f1cf51037"
-  integrity sha512-X9rD8qqm695vgmeaQ4fvz/o3+Wk4ZzQvSHkDBgpYKxpD4qTAUm88ZKtHkVqIOsYFFbIQ6wQYhC6q7pjqVK0E0Q==
+"@babel/parser@^7.10.4", "@babel/parser@^7.12.0":
+  version "7.12.0"
+  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.12.0.tgz#2ad388f3960045b22f9b7d4bf85e80b15a1c9e3a"
+  integrity sha512-dYmySMYnlus2jwl7JnnajAj11obRStZoW9cG04wh4ZuhozDn11tDUrhHcUZ9iuNHqALAhh60XqNaYXpvuuE/Gg==
 
 "@babel/runtime@^7.1.2", "@babel/runtime@^7.5.5":
-  version "7.11.2"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.11.2.tgz#f549c13c754cc40b87644b9fa9f09a6a95fe0736"
-  integrity sha512-TeWkU52so0mPtDcaCTxNBI/IHiz0pZgr8VEFqXFtZWpYD08ZB6FaSwVAS8MKRQAP3bYKiVjwysOJgMFY28o6Tw==
+  version "7.12.0"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.0.tgz#98bd7666186969c04be893d747cf4a6c6c8fa6b0"
+  integrity sha512-lS4QLXQ2Vbw2ubfQjeQcn+BZgZ5+ROHW9f+DWjEp5Y+NHYmkRGKqHSJ1tuhbUauKu2nhZNTBIvsIQ8dXfY5Gjw==
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -91,24 +91,24 @@
     "@babel/types" "^7.10.4"
 
 "@babel/traverse@^7.4.5":
-  version "7.11.5"
-  resolved "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.11.5.tgz#be777b93b518eb6d76ee2e1ea1d143daa11e61c3"
-  integrity sha512-EjiPXt+r7LiCZXEfRpSJd+jUMnBd4/9OUv7Nx3+0u9+eimMwJmG0Q98lw4/289JCoxSE8OolDMNZaaF/JZ69WQ==
+  version "7.12.0"
+  resolved "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.12.0.tgz#ed31953d6e708cdd34443de2fcdb55f72cdfb266"
+  integrity sha512-ZU9e79xpOukCNPkQ1UzR4gJKCruGckr6edd8v8lmKpSk8iakgUIvb+5ZtaKKV9f7O+x5r+xbMDDIbzVpUoiIuw==
   dependencies:
     "@babel/code-frame" "^7.10.4"
-    "@babel/generator" "^7.11.5"
+    "@babel/generator" "^7.12.0"
     "@babel/helper-function-name" "^7.10.4"
     "@babel/helper-split-export-declaration" "^7.11.0"
-    "@babel/parser" "^7.11.5"
-    "@babel/types" "^7.11.5"
+    "@babel/parser" "^7.12.0"
+    "@babel/types" "^7.12.0"
     debug "^4.1.0"
     globals "^11.1.0"
     lodash "^4.17.19"
 
-"@babel/types@^7.10.4", "@babel/types@^7.11.0", "@babel/types@^7.11.5":
-  version "7.11.5"
-  resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.11.5.tgz#d9de577d01252d77c6800cee039ee64faf75662d"
-  integrity sha512-bvM7Qz6eKnJVFIn+1LPtjlBFPVN5jNDc1XmN15vWe7Q3DPBufWWsLiIvUu7xW87uTG6QoggpIDnUgLQvPheU+Q==
+"@babel/types@^7.10.4", "@babel/types@^7.11.0", "@babel/types@^7.12.0":
+  version "7.12.0"
+  resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.12.0.tgz#b6b49f425ee59043fbc89c61b11a13d5eae7b5c6"
+  integrity sha512-ggIyFmT2zMaYRheOfPDQ4gz7QqV3B+t2rjqjbttDJxMcb7/LukvWCmlIl1sWcOxrvwpTDd+z0OytzqsbGeb3/g==
   dependencies:
     "@babel/helper-validator-identifier" "^7.10.4"
     lodash "^4.17.19"
@@ -198,12 +198,163 @@
     react-tagsinput "^3.19.0"
     resize-observer-polyfill "^1.5.1"
 
-"@pluralsight/ps-design-system-core@^6.5.1":
+"@pluralsight/ps-design-system-actionmenu@11.0.8":
+  version "11.0.8"
+  resolved "http://repository.vnerd.com/artifactory/api/npm/npm-pluralsight/@pluralsight/ps-design-system-actionmenu/-/ps-design-system-actionmenu-11.0.8.tgz#2da4b2f2aa3452dc36651b0ee9333d272bc462d6"
+  integrity sha1-LaSy8qo0Utw2ZRsO6TM9JyvEYtY=
+  dependencies:
+    "@pluralsight/ps-design-system-core" "^6.2.1"
+    "@pluralsight/ps-design-system-filter-react-props" "^1.1.17"
+    "@pluralsight/ps-design-system-icon" "^18.1.3"
+    "@pluralsight/ps-design-system-prop-types" "^2.0.18"
+    exenv "^1.2.2"
+    glamorous "^5.0.0"
+    prop-types "^15.7.2"
+
+"@pluralsight/ps-design-system-actionmenu@^13.0.11":
+  version "13.0.11"
+  resolved "http://repository.vnerd.com/artifactory/api/npm/npm-pluralsight/@pluralsight/ps-design-system-actionmenu/-/ps-design-system-actionmenu-13.0.11.tgz#34a01ea3900d6564d4fafffa0eaf553bc47c6bef"
+  integrity sha1-NKAeo5ANZWTU+v/6Dq9VO8R8a+8=
+  dependencies:
+    "@pluralsight/ps-design-system-core" "^6.4.0"
+    "@pluralsight/ps-design-system-filter-react-props" "^1.1.18"
+    "@pluralsight/ps-design-system-icon" "^18.1.7"
+    "@pluralsight/ps-design-system-prop-types" "^2.0.18"
+    "@pluralsight/ps-design-system-util" "^3.5.0"
+    exenv "^1.2.2"
+    glamorous "^5.0.0"
+    prop-types "^15.7.2"
+
+"@pluralsight/ps-design-system-avatar@^6.1.1":
+  version "6.1.1"
+  resolved "http://repository.vnerd.com/artifactory/api/npm/npm-pluralsight/@pluralsight/ps-design-system-avatar/-/ps-design-system-avatar-6.1.1.tgz#cc16bfece8eceb79e1c6fff8701ad4a2b7f2159b"
+  integrity sha1-zBa/7Ojs63nhxv/4cBrUorfyFZs=
+  dependencies:
+    "@pluralsight/ps-design-system-core" "^6.5.1"
+
+"@pluralsight/ps-design-system-badge@^10.0.9":
+  version "10.1.1"
+  resolved "http://repository.vnerd.com/artifactory/api/npm/npm-pluralsight/@pluralsight/ps-design-system-badge/-/ps-design-system-badge-10.1.1.tgz#28cbe6c94e9f844d3ba2a7392e3051e17bf8514c"
+  integrity sha1-KMvmyU6fhE07oqc5LjBR4Xv4UUw=
+  dependencies:
+    "@pluralsight/ps-design-system-core" "^6.5.1"
+    "@pluralsight/ps-design-system-filter-react-props" "^1.2.1"
+    "@pluralsight/ps-design-system-util" "^5.4.1"
+
+"@pluralsight/ps-design-system-button@^18.0.0", "@pluralsight/ps-design-system-button@^18.0.9", "@pluralsight/ps-design-system-button@^18.4.1":
+  version "18.4.1"
+  resolved "http://repository.vnerd.com/artifactory/api/npm/npm-pluralsight/@pluralsight/ps-design-system-button/-/ps-design-system-button-18.4.1.tgz#2d7e14cc3c74ac3332398f4198c0aa3084830b5e"
+  integrity sha1-LX4UzDx0rDMyOY9BmMCqMISDC14=
+  dependencies:
+    "@pluralsight/ps-design-system-core" "^6.5.1"
+    "@pluralsight/ps-design-system-filter-react-props" "^1.2.1"
+    "@pluralsight/ps-design-system-icon" "^18.3.1"
+    "@pluralsight/ps-design-system-util" "^5.4.1"
+
+"@pluralsight/ps-design-system-checkbox@^6.0.0":
+  version "6.2.1"
+  resolved "http://repository.vnerd.com/artifactory/api/npm/npm-pluralsight/@pluralsight/ps-design-system-checkbox/-/ps-design-system-checkbox-6.2.1.tgz#429fd61b99a9777c655734a20bd424975cb12885"
+  integrity sha1-Qp/WG5mpd3xlVzSiC9Qkl1yxKIU=
+  dependencies:
+    "@pluralsight/ps-design-system-core" "^6.5.1"
+    "@pluralsight/ps-design-system-filter-react-props" "^1.2.1"
+    "@pluralsight/ps-design-system-halo" "^7.1.1"
+    prop-types "^15.7.2"
+
+"@pluralsight/ps-design-system-circularprogress@^6.1.0", "@pluralsight/ps-design-system-circularprogress@^6.1.5":
+  version "6.3.1"
+  resolved "http://repository.vnerd.com/artifactory/api/npm/npm-pluralsight/@pluralsight/ps-design-system-circularprogress/-/ps-design-system-circularprogress-6.3.1.tgz#121651d4069a00108b38ffb7d93d22586cf51a05"
+  integrity sha1-EhZR1AaaABCLOP+32T0iWGz1GgU=
+  dependencies:
+    "@pluralsight/ps-design-system-core" "^6.5.1"
+    "@pluralsight/ps-design-system-filter-react-props" "^1.2.1"
+    "@pluralsight/ps-design-system-screenreaderonly" "^2.1.1"
+    prop-types "^15.7.2"
+
+"@pluralsight/ps-design-system-collapsible@^2.2.1":
+  version "2.2.1"
+  resolved "http://repository.vnerd.com/artifactory/api/npm/npm-pluralsight/@pluralsight/ps-design-system-collapsible/-/ps-design-system-collapsible-2.2.1.tgz#1dae13d15df1d2ac539f7c33622855847b1fdcf9"
+  integrity sha1-Ha4T0V3x0qxTn3wzYihVhHsf3Pk=
+  dependencies:
+    "@pluralsight/ps-design-system-filter-react-props" "^1.2.1"
+    prop-types "^15.7.2"
+
+"@pluralsight/ps-design-system-core@^6.0.0", "@pluralsight/ps-design-system-core@^6.2.1", "@pluralsight/ps-design-system-core@^6.4.0", "@pluralsight/ps-design-system-core@^6.5.1":
   version "6.5.1"
   resolved "http://repository.vnerd.com/artifactory/api/npm/npm-pluralsight/@pluralsight/ps-design-system-core/-/ps-design-system-core-6.5.1.tgz#79be3be11c44721e4e45d1a4ddf1a270aae8a033"
   integrity sha1-eb474RxEch5ORdGk3fGicKrooDM=
 
-"@pluralsight/ps-design-system-filter-react-props@^1.2.1":
+"@pluralsight/ps-design-system-datepicker@^7.0.0":
+  version "7.2.1"
+  resolved "http://repository.vnerd.com/artifactory/api/npm/npm-pluralsight/@pluralsight/ps-design-system-datepicker/-/ps-design-system-datepicker-7.2.1.tgz#d8c88b7e4f5f1f352c9c84278504b71530dabf30"
+  integrity sha1-2MiLfk9fHzUsnIQnhQS3FTDavzA=
+  dependencies:
+    "@pluralsight/ps-design-system-button" "^18.4.1"
+    "@pluralsight/ps-design-system-core" "^6.5.1"
+    "@pluralsight/ps-design-system-filter-react-props" "^1.2.1"
+    "@pluralsight/ps-design-system-halo" "^7.1.1"
+    "@pluralsight/ps-design-system-icon" "^18.3.1"
+    prop-types "^15.7.2"
+
+"@pluralsight/ps-design-system-dialog@^8.3.1":
+  version "8.3.1"
+  resolved "http://repository.vnerd.com/artifactory/api/npm/npm-pluralsight/@pluralsight/ps-design-system-dialog/-/ps-design-system-dialog-8.3.1.tgz#24802b8dc66b728edb721b3b1de0885e8a8fbe4f"
+  integrity sha1-JIArjcZrco7bchs7HeCIXoqPvk8=
+  dependencies:
+    "@pluralsight/ps-design-system-core" "^6.5.1"
+    "@pluralsight/ps-design-system-filter-react-props" "^1.2.1"
+    "@pluralsight/ps-design-system-focusmanager" "^5.1.1"
+    "@pluralsight/ps-design-system-util" "^5.4.1"
+    prop-types "^15.7.2"
+
+"@pluralsight/ps-design-system-drawer@^7.1.6":
+  version "7.3.1"
+  resolved "http://repository.vnerd.com/artifactory/api/npm/npm-pluralsight/@pluralsight/ps-design-system-drawer/-/ps-design-system-drawer-7.3.1.tgz#c802bc48022ecf63709b0b6290eb15fc0298c610"
+  integrity sha1-yAK8SAIuz2NwmwtikOsV/AKYxhA=
+  dependencies:
+    "@pluralsight/ps-design-system-collapsible" "^2.2.1"
+    "@pluralsight/ps-design-system-core" "^6.5.1"
+    "@pluralsight/ps-design-system-filter-react-props" "^1.2.1"
+    "@pluralsight/ps-design-system-icon" "^18.3.1"
+    "@pluralsight/ps-design-system-util" "^5.4.1"
+    element-closest "^3.0.2"
+    prop-types "^15.7.2"
+
+"@pluralsight/ps-design-system-dropdown@^7.1.0":
+  version "7.1.10"
+  resolved "http://repository.vnerd.com/artifactory/api/npm/npm-pluralsight/@pluralsight/ps-design-system-dropdown/-/ps-design-system-dropdown-7.1.10.tgz#649be0471154059fd8fd86fccf52c1d223c2feaa"
+  integrity sha1-ZJvgRxFUBZ/Y/Yb8z1LB0iPC/qo=
+  dependencies:
+    "@pluralsight/ps-design-system-actionmenu" "^13.0.11"
+    "@pluralsight/ps-design-system-core" "^6.4.0"
+    "@pluralsight/ps-design-system-filter-react-props" "^1.1.18"
+    "@pluralsight/ps-design-system-halo" "^7.0.10"
+    "@pluralsight/ps-design-system-icon" "^18.1.7"
+    "@pluralsight/ps-design-system-util" "^3.5.0"
+    exenv "^1.2.2"
+    prop-types "^15.7.2"
+
+"@pluralsight/ps-design-system-emptystate@^8.0.0":
+  version "8.2.1"
+  resolved "http://repository.vnerd.com/artifactory/api/npm/npm-pluralsight/@pluralsight/ps-design-system-emptystate/-/ps-design-system-emptystate-8.2.1.tgz#b791fc74dc310adce299283629c24d5477d51750"
+  integrity sha1-t5H8dNwxCtzimSg2KcJNVHfVF1A=
+  dependencies:
+    "@pluralsight/ps-design-system-core" "^6.5.1"
+    "@pluralsight/ps-design-system-util" "^5.4.1"
+
+"@pluralsight/ps-design-system-errors@^8.0.18":
+  version "8.1.1"
+  resolved "http://repository.vnerd.com/artifactory/api/npm/npm-pluralsight/@pluralsight/ps-design-system-errors/-/ps-design-system-errors-8.1.1.tgz#bd88e2d23e78f20c4d12fee150499f2b15c3f246"
+  integrity sha1-vYji0j548gxNEv7hUEmfKxXD8kY=
+  dependencies:
+    "@pluralsight/ps-design-system-button" "^18.4.1"
+    "@pluralsight/ps-design-system-core" "^6.5.1"
+    "@pluralsight/ps-design-system-icon" "^18.3.1"
+    "@pluralsight/ps-design-system-text" "^16.1.1"
+    camelize "^1.0.0"
+    prop-types "^15.7.2"
+
+"@pluralsight/ps-design-system-filter-react-props@^1.1.17", "@pluralsight/ps-design-system-filter-react-props@^1.1.18", "@pluralsight/ps-design-system-filter-react-props@^1.2.1":
   version "1.2.1"
   resolved "http://repository.vnerd.com/artifactory/api/npm/npm-pluralsight/@pluralsight/ps-design-system-filter-react-props/-/ps-design-system-filter-react-props-1.2.1.tgz#ae527ca33afc54b3123a9a6b5d316ad6439b0db6"
   integrity sha1-rlJ8ozr8VLMSOpprXTFq1kObDbY=
@@ -211,7 +362,14 @@
     fast-memoize "^2.5.1"
     react-html-attributes "^1.4.6"
 
-"@pluralsight/ps-design-system-halo@^7.1.1":
+"@pluralsight/ps-design-system-focusmanager@^5.1.1":
+  version "5.1.1"
+  resolved "http://repository.vnerd.com/artifactory/api/npm/npm-pluralsight/@pluralsight/ps-design-system-focusmanager/-/ps-design-system-focusmanager-5.1.1.tgz#742228819a2add08cdfb92f41bcafdb0e30a81bf"
+  integrity sha1-dCIogZoq3QjN+5L0G8r9sOMKgb8=
+  dependencies:
+    "@pluralsight/ps-design-system-filter-react-props" "^1.2.1"
+
+"@pluralsight/ps-design-system-halo@^7.0.10", "@pluralsight/ps-design-system-halo@^7.0.7", "@pluralsight/ps-design-system-halo@^7.1.1":
   version "7.1.1"
   resolved "http://repository.vnerd.com/artifactory/api/npm/npm-pluralsight/@pluralsight/ps-design-system-halo/-/ps-design-system-halo-7.1.1.tgz#7c364d320f7f6bbcc72327de3d8cce5cd0c88ad7"
   integrity sha1-fDZNMg9/a7zHIyfePYzOXNDIitc=
@@ -221,7 +379,7 @@
     focus-within "^3.0.2"
     hoist-non-react-statics "^3.3.0"
 
-"@pluralsight/ps-design-system-icon@^18.3.1":
+"@pluralsight/ps-design-system-icon@^18.0.0", "@pluralsight/ps-design-system-icon@^18.1.3", "@pluralsight/ps-design-system-icon@^18.1.5", "@pluralsight/ps-design-system-icon@^18.1.7", "@pluralsight/ps-design-system-icon@^18.3.1":
   version "18.3.1"
   resolved "http://repository.vnerd.com/artifactory/api/npm/npm-pluralsight/@pluralsight/ps-design-system-icon/-/ps-design-system-icon-18.3.1.tgz#92da92e2e2f207640283b525b1285358f77e2b16"
   integrity sha1-ktqS4uLyB2QCg7UlsShTWPd+KxY=
@@ -264,6 +422,52 @@
     "@pluralsight/ps-design-system-core" "^6.5.1"
     normalize.css "^8.0.1"
 
+"@pluralsight/ps-design-system-position@^3.0.0":
+  version "3.0.7"
+  resolved "http://repository.vnerd.com/artifactory/api/npm/npm-pluralsight/@pluralsight/ps-design-system-position/-/ps-design-system-position-3.0.7.tgz#1b5aa5e3ea4a26cb90b524c6bc722c4744e6500e"
+  integrity sha1-G1ql4+pKJsuQtSTGvHIsR0TmUA4=
+  dependencies:
+    "@pluralsight/ps-design-system-core" "^6.2.1"
+    prop-types "^15.7.2"
+
+"@pluralsight/ps-design-system-prop-types@^2.0.18":
+  version "2.1.1"
+  resolved "http://repository.vnerd.com/artifactory/api/npm/npm-pluralsight/@pluralsight/ps-design-system-prop-types/-/ps-design-system-prop-types-2.1.1.tgz#e2416f82602c17c22590e0c5c8fb89dacbfa5c04"
+  integrity sha1-4kFvgmAsF8IlkODFyPuJ2sv6XAQ=
+  dependencies:
+    prop-types "^15.7.2"
+
+"@pluralsight/ps-design-system-screenreaderonly@^2.1.1":
+  version "2.1.1"
+  resolved "http://repository.vnerd.com/artifactory/api/npm/npm-pluralsight/@pluralsight/ps-design-system-screenreaderonly/-/ps-design-system-screenreaderonly-2.1.1.tgz#7ee56d8e58743f2343bacfad440da33644b8251c"
+  integrity sha1-fuVtjlh0PyNDus+tRA2jNkS4JRw=
+  dependencies:
+    "@pluralsight/ps-design-system-core" "^6.5.1"
+    "@pluralsight/ps-design-system-util" "^5.4.1"
+    prop-types "^15.7.2"
+
+"@pluralsight/ps-design-system-searchinput@5.0.11":
+  version "5.0.11"
+  resolved "http://repository.vnerd.com/artifactory/api/npm/npm-pluralsight/@pluralsight/ps-design-system-searchinput/-/ps-design-system-searchinput-5.0.11.tgz#a82fc5f5d9038a70297e63f8b5fdbc3cb369c963"
+  integrity sha1-qC/F9dkDinApfmP4tf28PLNpyWM=
+  dependencies:
+    "@pluralsight/ps-design-system-button" "^18.0.9"
+    "@pluralsight/ps-design-system-circularprogress" "^6.1.0"
+    "@pluralsight/ps-design-system-core" "^6.2.1"
+    "@pluralsight/ps-design-system-icon" "^18.1.3"
+    "@pluralsight/ps-design-system-textinput" "^7.0.9"
+    "@pluralsight/ps-design-system-util" "^3.1.1"
+
+"@pluralsight/ps-design-system-switch@^6.0.0":
+  version "6.2.1"
+  resolved "http://repository.vnerd.com/artifactory/api/npm/npm-pluralsight/@pluralsight/ps-design-system-switch/-/ps-design-system-switch-6.2.1.tgz#40a79a7d63bdf9b02a69fbaf75bec6790ac365f3"
+  integrity sha1-QKeafWO9+bAqafuvdb7GeQrDZfM=
+  dependencies:
+    "@pluralsight/ps-design-system-core" "^6.5.1"
+    "@pluralsight/ps-design-system-filter-react-props" "^1.2.1"
+    "@pluralsight/ps-design-system-halo" "^7.1.1"
+    prop-types "^15.7.2"
+
 "@pluralsight/ps-design-system-tab@^15.1.11":
   version "15.2.1"
   resolved "http://repository.vnerd.com/artifactory/api/npm/npm-pluralsight/@pluralsight/ps-design-system-tab/-/ps-design-system-tab-15.2.1.tgz#6ef6bca770f927d8dfb3f5a9e85f433b8e66d27f"
@@ -275,7 +479,51 @@
     prop-types "^15.7.2"
     resize-observer-polyfill "^1.5.1"
 
-"@pluralsight/ps-design-system-theme@^4.0.1":
+"@pluralsight/ps-design-system-table@^8.1.5":
+  version "8.1.5"
+  resolved "http://repository.vnerd.com/artifactory/api/npm/npm-pluralsight/@pluralsight/ps-design-system-table/-/ps-design-system-table-8.1.5.tgz#110f84132396f879d0d834b75a9d0d864cd23275"
+  integrity sha1-EQ+EEyOW+HnQ2DS3Wp0NhkzSMnU=
+  dependencies:
+    "@pluralsight/ps-design-system-core" "^6.2.1"
+    "@pluralsight/ps-design-system-drawer" "^7.1.6"
+    "@pluralsight/ps-design-system-filter-react-props" "^1.1.17"
+    "@pluralsight/ps-design-system-icon" "^18.1.5"
+    prop-types "^15.7.2"
+
+"@pluralsight/ps-design-system-tag@^7.1.1":
+  version "7.1.1"
+  resolved "http://repository.vnerd.com/artifactory/api/npm/npm-pluralsight/@pluralsight/ps-design-system-tag/-/ps-design-system-tag-7.1.1.tgz#a760bf0c487e3fa8393b19c6b1ed46b073fe039d"
+  integrity sha1-p2C/DEh+P6g5OxnGse1GsHP+A50=
+  dependencies:
+    "@pluralsight/ps-design-system-core" "^6.5.1"
+    "@pluralsight/ps-design-system-filter-react-props" "^1.2.1"
+    "@pluralsight/ps-design-system-halo" "^7.1.1"
+    "@pluralsight/ps-design-system-icon" "^18.3.1"
+    prop-types "^15.7.2"
+
+"@pluralsight/ps-design-system-text@^16.0.0", "@pluralsight/ps-design-system-text@^16.1.1":
+  version "16.1.1"
+  resolved "http://repository.vnerd.com/artifactory/api/npm/npm-pluralsight/@pluralsight/ps-design-system-text/-/ps-design-system-text-16.1.1.tgz#bfe0f01be6aaba7a7895cdbc97f1399f49d64657"
+  integrity sha1-v+DwG+aqunp4lc28l/E5n0nWRlc=
+  dependencies:
+    "@pluralsight/ps-design-system-core" "^6.5.1"
+    "@pluralsight/ps-design-system-filter-react-props" "^1.2.1"
+    "@pluralsight/ps-design-system-util" "^5.4.1"
+    prop-types "^15.7.2"
+
+"@pluralsight/ps-design-system-textinput@^7.0.0", "@pluralsight/ps-design-system-textinput@^7.0.9":
+  version "7.0.9"
+  resolved "http://repository.vnerd.com/artifactory/api/npm/npm-pluralsight/@pluralsight/ps-design-system-textinput/-/ps-design-system-textinput-7.0.9.tgz#192f120ac8f15b86d7b3aa3fc8b31b29dc5f97c1"
+  integrity sha1-GS8SCsjxW4bXs6o/yLMbKdxfl8E=
+  dependencies:
+    "@pluralsight/ps-design-system-button" "^18.0.9"
+    "@pluralsight/ps-design-system-core" "^6.2.1"
+    "@pluralsight/ps-design-system-filter-react-props" "^1.1.17"
+    "@pluralsight/ps-design-system-halo" "^7.0.7"
+    "@pluralsight/ps-design-system-icon" "^18.1.3"
+    prop-types "^15.7.2"
+
+"@pluralsight/ps-design-system-theme@^4.0.0":
   version "4.0.15"
   resolved "http://repository.vnerd.com/artifactory/api/npm/npm-pluralsight/@pluralsight/ps-design-system-theme/-/ps-design-system-theme-4.0.15.tgz#ca7dc1acb67920988c5d21e9a72541f8b0b7f8e1"
   integrity sha1-yn3BrLZ5IJiMXSHppyVB+LC3+OE=
@@ -291,6 +539,24 @@
     "@pluralsight/ps-design-system-util" "^5.4.1"
     hoist-non-react-statics "^3.3.0"
 
+"@pluralsight/ps-design-system-tooltip@^6.0.10":
+  version "6.1.1"
+  resolved "http://repository.vnerd.com/artifactory/api/npm/npm-pluralsight/@pluralsight/ps-design-system-tooltip/-/ps-design-system-tooltip-6.1.1.tgz#55437ef66d71a2c0ceacbac4e38d3824aa69c1a7"
+  integrity sha1-VUN+9m1xosDOrLrE4404JKppwac=
+  dependencies:
+    "@pluralsight/ps-design-system-core" "^6.5.1"
+    "@pluralsight/ps-design-system-filter-react-props" "^1.2.1"
+    prop-types "^15.7.2"
+
+"@pluralsight/ps-design-system-util@^3.1.1", "@pluralsight/ps-design-system-util@^3.5.0":
+  version "3.5.0"
+  resolved "http://repository.vnerd.com/artifactory/api/npm/npm-pluralsight/@pluralsight/ps-design-system-util/-/ps-design-system-util-3.5.0.tgz#a2782d639d7fdcd5e2147993f0a9035ce731d71b"
+  integrity sha1-ongtY51/3NXiFHmT8KkDXOcx1xs=
+  dependencies:
+    exenv "^1.2.2"
+    prop-types "^15.7.2"
+    resize-observer-polyfill "^1.5.1"
+
 "@pluralsight/ps-design-system-util@^5.4.1":
   version "5.4.1"
   resolved "http://repository.vnerd.com/artifactory/api/npm/npm-pluralsight/@pluralsight/ps-design-system-util/-/ps-design-system-util-5.4.1.tgz#0960a26d059ed2791ff40ab1e0178400e8f68e95"
@@ -299,6 +565,15 @@
     exenv "^1.2.2"
     prop-types "^15.7.2"
     resize-observer-polyfill "^1.5.1"
+
+"@pluralsight/ps-design-system-viewtoggle@^6.0.0":
+  version "6.1.1"
+  resolved "http://repository.vnerd.com/artifactory/api/npm/npm-pluralsight/@pluralsight/ps-design-system-viewtoggle/-/ps-design-system-viewtoggle-6.1.1.tgz#a227565f082ee3ad71ddf36ffca7db40fdf72f41"
+  integrity sha1-oidWXwgu461x3fNv/KfbQP33L0E=
+  dependencies:
+    "@pluralsight/ps-design-system-core" "^6.5.1"
+    "@pluralsight/ps-design-system-icon" "^18.3.1"
+    "@pluralsight/ps-design-system-util" "^5.4.1"
 
 "@ps-flow/flow-rnc@1.3.1":
   version "1.3.1"
@@ -1123,6 +1398,11 @@ braces@^3.0.1:
   dependencies:
     fill-range "^7.0.1"
 
+brcast@^3.0.0:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/brcast/-/brcast-3.0.2.tgz#55c41a7a077ff4e7ac784c2060e544d4c39ad477"
+  integrity sha512-f5XwwFCCuvgqP2nMH/hJ74FqnGmb4X3D+NC//HphxJzzhsZvSZa+Hk/syB7j3ZHpPDLMoYU8oBgviRWfNvEfKA==
+
 browserslist@^4.14.3:
   version "4.14.5"
   resolved "https://registry.yarnpkg.com/browserslist/-/browserslist-4.14.5.tgz#1c751461a102ddc60e40993639b709be7f2c4015"
@@ -1758,6 +2038,11 @@ csso@^4.0.2:
   dependencies:
     css-tree "1.0.0-alpha.39"
 
+csstype@^2.2.0:
+  version "2.6.13"
+  resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.13.tgz#a6893015b90e84dd6e85d0e3b442a1e84f2dbe0f"
+  integrity sha512-ul26pfSQTZW8dcOnD2iiJssfXw0gdNVX9IJDH/X3K5DGPfj+fUYe3kB+swUY6BF3oZDxaID3AJt+9/ojSAE05A==
+
 csstype@^3.0.2:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.0.3.tgz#2b410bbeba38ba9633353aff34b05d9755d065f8"
@@ -1863,7 +2148,7 @@ debug@^4.1.0, debug@^4.1.1:
   dependencies:
     ms "2.1.2"
 
-debuglog@^1.0.1:
+debuglog@*, debuglog@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/debuglog/-/debuglog-1.0.1.tgz#aa24ffb9ac3df9a2351837cfb2d279360cd78492"
   integrity sha1-qiT/uaw9+aI1GDfPstJ5NgzXhJI=
@@ -2125,6 +2410,11 @@ electron-to-chromium@^1.3.571:
   version "1.3.579"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.579.tgz#58bf17499de6edf697e1442017d8569bce0d301a"
   integrity sha512-9HaGm4UDxCtcmIqWWdv79pGgpRZWTqr+zg6kxp0MelSHfe1PNjrI8HXy1HgTSy4p0iQETGt8/ElqKFLW008BSA==
+
+element-closest@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/element-closest/-/element-closest-3.0.2.tgz#3814a69a84f30e48e63eaf57341f4dbf4227d2aa"
+  integrity sha512-JxKQiJKX0Zr5Q2/bCaTx8P+UbfyMET1OQd61qu5xQFeWr1km3fGaxelSJtnfT27XQ5Uoztn2yIyeamAc/VX13g==
 
 emoji-regex@^7.0.1:
   version "7.0.3"
@@ -2482,7 +2772,7 @@ fast-json-stable-stringify@^2.0.0:
   resolved "https://registry.yarnpkg.com/fast-json-stable-stringify/-/fast-json-stable-stringify-2.1.0.tgz#874bf69c6f404c2b5d99c481341399fd55892633"
   integrity sha512-lhd/wF+Lk98HZoTCtlVraHtfh5XYijIjalXck7saUtuanSDyLMxnHhSXEDJqHxD7msR8D0uCmqlkwjCV8xvwHw==
 
-fast-memoize@^2.5.1:
+fast-memoize@^2.2.7, fast-memoize@^2.5.1:
   version "2.5.2"
   resolved "https://registry.yarnpkg.com/fast-memoize/-/fast-memoize-2.5.2.tgz#79e3bb6a4ec867ea40ba0e7146816f6cdce9b57e"
   integrity sha512-Ue0LwpDYErFbmNnZSF0UH6eImUwDmogUO1jyE+JbN2gsQz/jICm1Ve7t9QT0rNSsfJt+Hs4/S3GnsDVjL4HVrw==
@@ -2811,6 +3101,20 @@ glamor@^2.20.40:
     prop-types "^15.5.10"
     through "^2.3.8"
 
+glamorous@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/glamorous/-/glamorous-5.0.0.tgz#0c736592cb3b7120e1fd1a03a41e9f0f404b8fce"
+  integrity sha512-ayP4ldvNHJNKSfJEERKNAvOmTKkQZliVK5AKUJwUU7YruhaCnlPrPsBUp6BBJgHQdI63Nda9Hn7HISlj+qiPkA==
+  dependencies:
+    brcast "^3.0.0"
+    csstype "^2.2.0"
+    fast-memoize "^2.2.7"
+    html-tag-names "^1.1.1"
+    is-function "^1.0.1"
+    is-plain-object "^2.0.4"
+    react-html-attributes "^1.4.2"
+    svg-tag-names "^1.1.0"
+
 glob-parent@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/glob-parent/-/glob-parent-3.1.0.tgz#9e6af6299d8d3bd2bd40430832bd113df906c5ae"
@@ -3069,6 +3373,11 @@ html-minifier-terser@^5.0.1:
     relateurl "^0.2.7"
     terser "^4.6.3"
 
+html-tag-names@^1.1.1:
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/html-tag-names/-/html-tag-names-1.1.5.tgz#f537420c16769511283f8ae1681785fbc89ee0a9"
+  integrity sha512-aI5tKwNTBzOZApHIynaAwecLBv8TlZTEy/P4Sj2SzzAhBrGuI8yGZ0UIXVPQzOHGS+to2mjb04iy6VWt/8+d8A==
+
 html-webpack-plugin@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/html-webpack-plugin/-/html-webpack-plugin-4.5.0.tgz#625097650886b97ea5dae331c320e3238f6c121c"
@@ -3250,7 +3559,7 @@ import-local@^2.0.0:
     pkg-dir "^3.0.0"
     resolve-cwd "^2.0.0"
 
-imurmurhash@^0.1.4:
+imurmurhash@*, imurmurhash@^0.1.4:
   version "0.1.4"
   resolved "https://registry.yarnpkg.com/imurmurhash/-/imurmurhash-0.1.4.tgz#9218b9b2b928a238b13dc4fb6b6d576f231453ea"
   integrity sha1-khi5srkoojixPcT7a21XbyMUU+o=
@@ -3478,6 +3787,11 @@ is-fullwidth-code-point@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/is-fullwidth-code-point/-/is-fullwidth-code-point-2.0.0.tgz#a3b30a5c4f199183167aaab93beefae3ddfb654f"
   integrity sha1-o7MKXE8ZkYMWeqq5O+764937ZU8=
+
+is-function@^1.0.1:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/is-function/-/is-function-1.0.2.tgz#4f097f30abf6efadac9833b17ca5dc03f8144e08"
+  integrity sha512-lw7DUp0aWXYg+CBCN+JKkcE0Q2RayZnSvnZBlwgxHBQhqt5pZNVy4Ri7H9GmmXkdu7LUthszM+Tor1u/2iBcpQ==
 
 is-glob@^3.1.0:
   version "3.1.0"
@@ -3999,6 +4313,11 @@ lockfile@^1.0.4:
   dependencies:
     signal-exit "^3.0.2"
 
+lodash._baseindexof@*:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/lodash._baseindexof/-/lodash._baseindexof-3.1.0.tgz#fe52b53a1c6761e42618d654e4a25789ed61822c"
+  integrity sha1-/lK1OhxnYeQmGNZU5KJXie1hgiw=
+
 lodash._baseuniq@~4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/lodash._baseuniq/-/lodash._baseuniq-4.6.0.tgz#0ebb44e456814af7905c6212fa2c9b2d51b841e8"
@@ -4007,10 +4326,32 @@ lodash._baseuniq@~4.6.0:
     lodash._createset "~4.0.0"
     lodash._root "~3.0.0"
 
+lodash._bindcallback@*:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/lodash._bindcallback/-/lodash._bindcallback-3.0.1.tgz#e531c27644cf8b57a99e17ed95b35c748789392e"
+  integrity sha1-5THCdkTPi1epnhftlbNcdIeJOS4=
+
+lodash._cacheindexof@*:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/lodash._cacheindexof/-/lodash._cacheindexof-3.0.2.tgz#3dc69ac82498d2ee5e3ce56091bafd2adc7bde92"
+  integrity sha1-PcaayCSY0u5ePOVgkbr9Ktx73pI=
+
+lodash._createcache@*:
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/lodash._createcache/-/lodash._createcache-3.1.2.tgz#56d6a064017625e79ebca6b8018e17440bdcf093"
+  integrity sha1-VtagZAF2JeeevKa4AY4XRAvc8JM=
+  dependencies:
+    lodash._getnative "^3.0.0"
+
 lodash._createset@~4.0.0:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/lodash._createset/-/lodash._createset-4.0.3.tgz#0f4659fbb09d75194fa9e2b88a6644d363c9fe26"
   integrity sha1-D0ZZ+7CddRlPqeK4imZE02PJ/iY=
+
+lodash._getnative@*, lodash._getnative@^3.0.0:
+  version "3.9.1"
+  resolved "https://registry.yarnpkg.com/lodash._getnative/-/lodash._getnative-3.9.1.tgz#570bc7dede46d61cdcde687d65d3eecbaa3aaff5"
+  integrity sha1-VwvH3t5G1hzc3mh9ZdPuy6o6r/U=
 
 lodash._root@~3.0.0:
   version "3.0.1"
@@ -4026,6 +4367,11 @@ lodash.debounce@^4.0.8:
   version "4.0.8"
   resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
   integrity sha1-gteb/zCmfEAF/9XiUVMArZyk168=
+
+lodash.restparam@*:
+  version "3.6.1"
+  resolved "https://registry.yarnpkg.com/lodash.restparam/-/lodash.restparam-3.6.1.tgz#936a4e309ef330a7645ed4145986c85ae5b20805"
+  integrity sha1-k2pOMJ7zMKdkXtQUWYbIWuWyCAU=
 
 lodash.union@~4.6.0:
   version "4.6.0"
@@ -5508,16 +5854,16 @@ rc@^1.0.1, rc@^1.1.6:
     strip-json-comments "~2.0.1"
 
 react-dom@^16.13.1:
-  version "16.13.1"
-  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.13.1.tgz#c1bd37331a0486c078ee54c4740720993b2e0e7f"
-  integrity sha512-81PIMmVLnCNLO/fFOQxdQkvEq/+Hfpv24XNJfpyZhTRfO0QcmQIF/PgCa1zCOj2w1hrn12MFLyaJ/G0+Mxtfag==
+  version "16.14.0"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.14.0.tgz#7ad838ec29a777fb3c75c3a190f661cf92ab8b89"
+  integrity sha512-1gCeQXDLoIqMgqD3IO2Ah9bnf0w9kzhwN5q4FGnHZ67hBm9yePzB5JJAIQCc8x3pFnNlwFq4RidZggNAAkzWWw==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.2"
     scheduler "^0.19.1"
 
-react-html-attributes@^1.4.6:
+react-html-attributes@^1.4.2, react-html-attributes@^1.4.6:
   version "1.4.6"
   resolved "https://registry.yarnpkg.com/react-html-attributes/-/react-html-attributes-1.4.6.tgz#9558b56bb81c60f6cee9ae7d5e97434a59c086ff"
   integrity sha512-uS3MmThNKFH2EZUQQw4k5pIcU7XIr208UE5dktrj/GOH1CMagqxDl4DCLpt3o2l9x+IB5nVYBeN3Cr4IutBXAg==
@@ -5571,9 +5917,9 @@ react-tagsinput@^3.19.0:
   integrity sha512-ni+/qnZrYrvLg83LtTFHErKy1KQHL0fi0Y6C5jgC1dNUePE9cS/OlQ4XH6JRSjv9GGoeVE0R/ujSBaS1uzCRYQ==
 
 react@^16.13.1:
-  version "16.13.1"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.13.1.tgz#2e818822f1a9743122c063d6410d85c1e3afe48e"
-  integrity sha512-YMZQQq32xHLX0bz5Mnibv1/LHb3Sqzngu7xstSM+vrkE5Kzr9xE0yMByK5kMoTK30YVJE61WfbxIFFvfeDKT1w==
+  version "16.14.0"
+  resolved "https://registry.yarnpkg.com/react/-/react-16.14.0.tgz#94d776ddd0aaa37da3eda8fc5b6b18a4c9a3114d"
+  integrity sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
@@ -6551,6 +6897,11 @@ supports-color@^7.0.0:
   integrity sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==
   dependencies:
     has-flag "^4.0.0"
+
+svg-tag-names@^1.1.0:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/svg-tag-names/-/svg-tag-names-1.1.2.tgz#aa785b58ce35e725a65758f7e436924dc79be9ce"
+  integrity sha512-LIDOy8NRLGfJegTEnpizWA/ofg3Gyx58JgPEEjvATFciUJW9dHZ2aPTYY0Mn2rQYCeUGZElpHfu91OcWK0IMIw==
 
 svgo@^1.3.2:
   version "1.3.2"
