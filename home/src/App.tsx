@@ -8,6 +8,7 @@ import Theme from "@pluralsight/ps-design-system-theme";
 import styled from "styled-components";
 import RNC from "./RNC";
 import BCTwo from "./BCTwo";
+import BCThree from "./BCThree";
 import Nav from "./Nav";
 
 const Page = styled.div`
@@ -37,6 +38,11 @@ const App = () => {
             <Route path="/bctwo">
               <Suspense fallback={null}>
                 <BCTwo />
+              </Suspense>
+            </Route>
+            <Route path="/bcthree">
+              <Suspense fallback={null}>
+                <BCThree />
               </Suspense>
             </Route>
           </Content>
