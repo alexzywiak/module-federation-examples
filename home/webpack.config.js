@@ -12,7 +12,7 @@ module.exports = {
     historyApiFallback: true,
   },
   output: {
-    publicPath: "/",
+    publicPath: "http://localhost:3000/",
   },
   resolve: {
     extensions: [".ts", ".tsx", ".js"],
@@ -36,7 +36,12 @@ module.exports = {
     new ModuleFederationPlugin({
       name: "monolith",
       filename: "remoteEntry.js",
+      exposes: {
+        "./Nav": "./src/Nav",
+        "./Frame": "./src/Frame",
+      },
       remotes: {
+        monolith: "monolith@http://localhost:3000/remoteEntry.js",
         flowRnc: "flowRnc@http://localhost:3001/remoteEntry.js",
         bcTwo: "bcTwo@http://localhost:3002/remoteEntry.js",
         bcThree: "bcThree@http://localhost:3003/remoteEntry.js",

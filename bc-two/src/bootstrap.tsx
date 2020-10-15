@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import BCTwo from "./BCTwo";
+import BCTwo from "./BCTwoPage";
 
 ReactDOM.render(
   <React.StrictMode>

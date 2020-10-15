@@ -6,9 +6,12 @@ import {
 } from "@pluralsight/ps-design-system-core";
 import Theme from "@pluralsight/ps-design-system-theme";
 import styled from "styled-components";
-import Nav from "./Nav";
 import { DateTime, Interval } from "luxon";
 
+import "@pluralsight/ps-design-system-normalize/dist/index.css";
+
+// @ts-ignore
+const Nav = React.lazy(() => import("monolith/Nav"));
 // @ts-ignore
 const BCTwo = React.lazy(() => import("bcTwo/BCTwo"));
 // @ts-ignore
@@ -36,7 +39,9 @@ const App = () => {
     <Theme name={Theme.names.dark}>
       <BrowserRouter>
         <Page>
-          <Nav />
+          <Suspense fallback={null}>
+            <Nav />
+          </Suspense>
           <Content>
             <Route path="/rnc">
               <Suspense fallback={null}>

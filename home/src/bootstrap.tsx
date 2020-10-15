@@ -1,13 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import App from "./App";
-
-import "@pluralsight/ps-design-system-normalize/dist/index.css";
+import Frame from "./Frame";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Frame />
   </React.StrictMode>,
   document.getElementById("root")
 );

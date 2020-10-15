@@ -37,9 +37,13 @@ module.exports = {
       name: "bcTwo",
       filename: "remoteEntry.js",
       exposes: {
-        "./BCTwo": "./src/BCTwo",
+        "./BCTwo": "./src/BCTwoContent",
       },
-      remotes: {},
+      remotes: {
+        monolith: "monolith@http://localhost:3000/remoteEntry.js",
+        bcTwo: "bcTwo@http://localhost:3002/remoteEntry.js",
+        bcThree: "bcThree@http://localhost:3003/remoteEntry.js",
+      },
       shared: {
         ...deps,
         react: {

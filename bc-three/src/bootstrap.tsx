@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import BCThree from "./BCThree";
+import BCThreePage from "./BCThreePage";
 
 ReactDOM.render(
   <React.StrictMode>
-    <BCThree />
+    <BCThreePage />
   </React.StrictMode>,
   document.getElementById("root")
 );
